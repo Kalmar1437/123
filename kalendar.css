@@ -1,0 +1,75 @@
+.calContainer{
+    display: flex;
+    flex-direction: column;
+    height: 370px;
+    width: 1000px;
+}
+
+.buttons{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#calendar{
+    display: flex;
+    height: 90%;
+    width: 100%;
+}
+
+button{
+    border-top: 4px solid black;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    border-bottom: none;
+    height: 100%;
+    width: 30%;
+}
+
+#prev{
+    order: 1;
+}
+
+#next{
+    order: 2;
+}
+
+.notCurrent{
+    color: tomato;
+    border: 1px solid black;
+    text-align: center;
+    background-color: lightgray;
+}
+.currentMonth{
+    border: 1px solid black;
+    text-align: center;
+    background-color: white;
+}
+.currentDay{
+    border: 1px solid black;
+    text-align: center;
+    background-color: tomato;
+}
+.calendar{
+    height: 100%;
+    width: 100%;
+    border: 4px solid black;
+    border-collapse: collapse;
+    order: 3;
+}
+.weekDays{
+    border: 1px solid black;
+    text-align: center;
+    background-color: purple;
+}
+.month{
+    color: white;
+    background-color: red;
+    text-align: center;
+    text-shadow: -1px -1px 0 black,1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    font-size: 45px;
+    border: 4px solid black;
+}
+
